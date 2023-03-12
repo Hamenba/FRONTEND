@@ -1,0 +1,79 @@
+#para30{
+    text-align: center;
+    font-size: 15px;
+    color: orangered;
+    font-family: sans-serif, Arial;
+    font-weight: bolder;
+    margin-top: 85px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* ----------------------------about us( with grid)-------- */
+.quotes-container{
+    display: grid;
+    grid-template-columns: repeat(3,180px);
+    /* grid-template-columns: 200px 200px 200px; */
+    grid-gap: 40px;
+    grid-auto-rows: 200px;
+    margin-left: 350px;
+    margin-top: 48px;
+}
+
+.small-box1{
+    /* border: 1px solid black; */
+    background-color: azure;
+    border-radius: 3px;
+    transition: 0.7s;
+    box-shadow: 2px 2px;
+    color: rgb(3, 104, 3);
+}
+
+.small-box1:hover{
+    transform: translateY(-5px);
+    /* background-color: rgb(67, 252, 144); */
+    background-color: white;
+}
+
+.small-box1 img{
+    margin-top: 27px;
+    margin-left: 60px; 
+    width: 55px; 
+    height: 45px
+}
+
+#para31{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#para32{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#para35{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ----------------------- */
+#para36{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 15px;
+}
